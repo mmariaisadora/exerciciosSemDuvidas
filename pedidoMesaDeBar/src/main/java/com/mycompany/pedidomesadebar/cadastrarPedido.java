@@ -16,7 +16,6 @@ public class cadastrarPedido {
     String categoria;
     boolean alcool;
 
-
     public cadastrarPedido(String aProduto, int aQuantidade,double aValor, String aCategoria, boolean aAlcool) {
         produto = aProduto;
         quantidade = aQuantidade;
@@ -24,6 +23,4 @@ public class cadastrarPedido {
         categoria = aCategoria;
         alcool = aAlcool;
     }
-    
-    
 }
